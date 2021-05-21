@@ -9,7 +9,7 @@ const Home = ({ history, loginUser }) => (
     <h1 className="heading">Home</h1>
     <div className="content">
       <h2 className="home__heading">
-        Welcome to Track it App!
+        Welcome to Nusrat Track App!!!
       </h2>
       {loginUser ? <LogoutBtn history={history} /> : (
         <div>

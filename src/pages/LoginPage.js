@@ -16,7 +16,7 @@ const LoginPage = ({
     try {
       const response = await loggedIn(username, password);
       if (response.logged_in) {
-        setMsg('You are now logging in...');
+        setMsg('You are now logged In...');
         localStorage.setItem('token', response.token);
         setUser(response.user);
         logIn(true);

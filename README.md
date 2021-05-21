@@ -9,6 +9,7 @@
 </div>
 <p align="center">In this app, you can manage database resources in API including add, edit, and remove records that you want to track. For example, you can track your daily progress in learning English.
 </p>
+
 # Tracking App built with React
 ![Screenshots](./screenshot.png)
 

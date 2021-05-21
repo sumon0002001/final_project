@@ -16,7 +16,7 @@ const SignupPage = ({
     try {
       const response = await signedUp(username, password);
       if (response.status === 'created') {
-        setMsg('You are now logging in...');
+        setMsg('Congratulation.....Sucessfully Signup');
         setErrors([]);
         localStorage.setItem('token', response.token);
         setUser(response.user);
@@ -28,7 +28,7 @@ const SignupPage = ({
       }
     } catch {
       setMsg('');
-      setErrors(['Sorry, signup was faild.']);
+      setErrors(['Sorry, signup is failed.']);
     }
   };
 
