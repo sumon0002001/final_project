@@ -1,13 +1,22 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<h3 align="center">Tracking App</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)](https://github.com/sumon0002001/catalogue-recipe)
+[![Github Issues](https://img.shields.io/badge/GitHub-Issues-orange)](https://github.com/sumon0002001/catalogue-recipe/issues)
+[![GitHub2 Pull Requests](https://img.shields.io/badge/GitHub-Pull%20Requests-blue)](https://github.com/sumon0002001/catalogue-recipe/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+</div>
+<p align="center">In this app, you can manage database resources in API including add, edit, and remove records that you want to track. For example, you can track your daily progress in learning English.
+</p>
 # Tracking App built with React
 ![Screenshots](./screenshot.png)
 
 
 ## About the Project
 This responsive web application was built with React and Redux as the final project at Microverse.
-I also built [REST API with Ruby on Rails](https://github.com/yocosaka/Tracking-App-Api-with-Rails) as the back-end for this application.
+I also built [REST API with Ruby on Rails](https://github.com/sumon0002001/finalproject_api_rail) as the back-end for this application.
 
-In this app, you can manage database resources in API including add, edit, and remove records that you want to track. For example, you can track your daily progress in learning English.
 
 I implemented these things:
 - Connected to the back-end API to send and receive data
@@ -33,7 +42,7 @@ A list of commonly used resources that I find helpful is listed in the acknowled
 
 ## Live Demo
 
-[Live Demo Link](https://yoco-tracking-app-front.herokuapp.com/)
+[Live Demo Link]()
 
 
 ## Getting Started
@@ -62,19 +71,22 @@ e.g. $ git clone https://github.com/yourUsername/yourProjectName
 ## How to manage items as an admin user
 
 1. Like the ordinary user, you need to log in with a username and password as an admin user, which is required to be given the status of admin: true by the administrator for the API
-  * You can see how to create admin user in the [Readme file for the REST API](https://github.com/yocosaka/Tracking-App-Api-with-Rails)
+  * You can see how to create admin user in the [Readme file for the REST API](https://github.com/sumon0002001/finalproject_api_rail)
 2. Then, you'll see the admin page. On this page, the items that are added by administrators will show
 3. By clicking the "Add item" button, it shows the form, and you can add an item
 4. By clicking each item, you can edit it
 
 
+   
 ## Author
 
-👤 **Yoko Saka**
+👤  **Mir Rawshan Ali**
 
-- GitHub: [@yocosaka](https://github.com/yocosaka)
-- Twitter: [@yocosaka](https://twitter.com/yocosaka)
-- LinkedIn: [Yoko Saka](https://www.linkedin.com/in/yokosaka)
+- GitHub: [@sumon0002009](https://github.com/sumon0002001)
+- Twitter: [@sumon0002009](https://twitter.com/Sumon0002009)
+- LinkedIn: [Mir Rawshan Ali](https://www.linkedin.com/in/mir-rawshan-ali/)
+
+
 
 
 ## Contributing
