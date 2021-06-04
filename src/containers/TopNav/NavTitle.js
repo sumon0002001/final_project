@@ -1,8 +1,8 @@
 const titles = {
-  '/bugs/new': 'Report a bug',
+  '/bugs/new': 'Assign a task',
   '/projects': 'All Projects',
-  '/bugs': 'All Bug Reports',
-  '/more': 'More',
+  '/bugs': 'All Tasks',
+  '/more': 'Task Tracking App',
   '/signup': 'Sign Up',
 };
 

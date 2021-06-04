@@ -44,7 +44,7 @@ const CreateBugReport = ({
       <form onSubmit={handleSubmit}>
         <label htmlFor="title">
           <p className={styles['font-style']}>Title:</p>
-          <input placeholder="Give a title to the bug..." className={styles.input} type="text" id="title" name="title" required onChange={handleChange} />
+          <input placeholder="Give a title to the Task..." className={styles.input} type="text" id="title" name="title" required onChange={handleChange} />
         </label>
         <label htmlFor="description">
           <p className={styles['font-style']}>Description:</p>

@@ -22,7 +22,7 @@ const Bug = ({
   });
 
   if (!currentBugReport.loaded) {
-    return <div>Loading bug report...</div>;
+    return <div>Loading Task...</div>;
   }
 
   const handleChange = e => {

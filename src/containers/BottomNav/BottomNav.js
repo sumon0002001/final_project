@@ -14,7 +14,7 @@ const BottomNav = () => {
       <div className={styles.container}>
         <Link to="/bugs/new" className={currentRoute === '/bugs/new' ? styles.selected : null}>
           <img src={add} alt="add-bug" className={styles.icon} />
-          <div>Add Bug Report</div>
+          <div>Assign Task</div>
         </Link>
         <Link
           to="/projects"
@@ -26,7 +26,7 @@ const BottomNav = () => {
         </Link>
         <Link to="/bugs" className={currentRoute === '/bugs' ? styles.selected : null}>
           <img src={bug} alt="bugs" className={styles.icon} />
-          <div>Bugs</div>
+          <div>Tasks</div>
         </Link>
         <Link to="/more" className={currentRoute === '/more' ? styles.selected : null}>
           <img src={more} alt="more" className={styles.icon} />

@@ -2,16 +2,16 @@
   display: block;
   text-decoration: none;
   background: rgb(151, 228, 147);
-  background: linear-gradient(rgb(151, 228, 147), rgb(172, 233, 169));
+  background: linear-gradient(rgb(240, 146, 38), rgb(172, 233, 169));
   padding: 20px;
   text-align: center;
-  color: #fff;
+  color: rgb(7, 6, 6);
   border-radius: 3px;
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vh;
   font-weight: 700;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  /* letter-spacing: 1px;
+  word-spacing: 3px; */
 }
 
 .card {

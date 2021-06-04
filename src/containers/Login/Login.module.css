@@ -12,6 +12,7 @@
 .font-style {
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vh;
+  text-align: center;
 }
 
 .submit-btn {
@@ -24,11 +25,12 @@
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vh;
   font-weight: 700;
+  text-align: center;
 }
 
 .btn {
   border: 1px solid rgb(236, 196, 103);
-  width: 30%;
+  width: 100%;
   padding: 5px;
   margin: 10px 0;
   background: rgb(246, 206, 96);

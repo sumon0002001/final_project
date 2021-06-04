@@ -38,7 +38,7 @@ const SignUp = props => {
         </label>
         <input className={styles['submit-btn']} type="submit" value="Sign Up" />
       </form>
-      <p className={styles['font-style']}>Already have an account!</p>
+      <p className={styles['font-style']}>Already have an account?</p>
       <Link to="/">
         <button className={styles.btn} type="button">Login</button>
       </Link>

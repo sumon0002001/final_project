@@ -1,7 +1,7 @@
 import { useHistory, useLocation } from 'react-router-dom';
 import getNavTitle from './NavTitle';
 import styles from './TopNav.module.css';
-import arrow from '../../assets/left-arrow.svg';
+
 
 const TopNav = () => {
   const location = useLocation();
@@ -20,7 +20,7 @@ const TopNav = () => {
           {navTitle}
         </div>
         <button type="button" onClick={handleBack} className={styles.back}>
-          <img className={styles.arrow} src={arrow} alt="back" />
+          Back
         </button>
       </div>
     </>

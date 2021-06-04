@@ -1,10 +1,10 @@
 .container {
-  background: rgb(66, 181, 232);
-  background: linear-gradient(rgb(66, 181, 232), rgb(161, 204, 223));
-  border: 1px solid rgb(66, 181, 232);
+  background: rgb(5, 39, 111);
+  background: linear-gradient(rgb(80, 66, 232), rgb(228, 242, 149));
+  border: 1px solid rgb(80, 66, 232);
   position: sticky;
   top: 0;
-  display: flex;
+  /* display: flex;  */
   height: 10vh;
   justify-content: space-between;
   align-items: center;
@@ -12,25 +12,31 @@
 }
 
 .title {
-  color: #fff;
+  color: rgb(15, 2, 2);
   font-family: 'Roboto', sans-serif;
   font-size: 3.5vh;
-  font-weight: 500;
-  padding-left: 15px;
+  font-weight: 800;
+  text-align: center;
+ 
 }
 
 .back {
-  height: 100%;
+
   width: 20%;
-  background: none;
+  background: blue;
   padding: 0;
-  color: inherit;
-  border: none;
+  color: rgb(111, 10, 10);
+  border: 1 px solid black;
   cursor: pointer;
   outline: inherit;
+  font-weight: 900;
+  font-size: 3.5vh;
+
+  
 }
 
-.arrow {
+ .arrow {
   width: 50%;
   height: 100%;
-}
+  color: #000;
+} 
